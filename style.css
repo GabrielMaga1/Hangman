@@ -1,0 +1,61 @@
+*{
+    background-color: rgb(62, 78, 72);
+}
+.joaca{
+    width: 60px;
+    height: 35px;
+    color: aliceblue;
+    font-size: large;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    outline: none;
+}
+.Alfabet{
+    color: aliceblue;
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: large;  
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    outline: none;
+    font-weight: bold;
+
+}
+.Alfabet:hover{
+    box-shadow:60px 60px 60px 60px inset rgb(67, 172, 133);
+}
+
+.Alfabet[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+#word{
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    font-size: large;
+    outline: none;
+    color: aliceblue;
+    margin-top: 45px;
+}
+.disabled {
+    background: #DDD;
+}
+.findWord{
+    margin-right: 7px;
+    color: aliceblue;
+    border: none;
+    font-size: 50px;
+}
+.hangMan{
+    position: absolute;
+    margin-left: 725px;
+    margin-right: auto;
+    top: 130px;
+    width: 400px;
+    height: 700px;
+}
