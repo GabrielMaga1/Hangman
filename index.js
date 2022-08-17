@@ -5,14 +5,14 @@ var length1;
 const lit = []; 
 var divElem = document.createElement('div');
 divElem.setAttribute('style', 'text-align:center;');
-function Generate(){
+function generate(){
     cuv = document.getElementById("word").value;
     length1 = cuv.length;
     for(let i = 0; i < length1; ++i){
         lit[i] = document.createElement('button');
         lit[i].innerHTML = "_";
         lit[i].setAttribute('number', i);
-        lit[i].setAttribute('class', "findWord");
+        lit[i].setAttribute('class', "FindWord");
         document.body.appendChild(lit[i]);
         divElem.appendChild(lit[i]);
     }
