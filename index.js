@@ -32,10 +32,7 @@ function search(char){
     }
     if(cont == 0){
         ++miss;
-        var poza = document.createElement('img');
-        poza.setAttribute('src', 'Imagini/' + miss + '.png');
-        poza.setAttribute('class', 'hangMan');
-        document.body.appendChild(poza);
+        document.getElementById(miss).style.display ="inline";
         if(miss == 6){
             window.setTimeout(function(){alert("You lost")},500);
             window.setTimeout(function(){location.reload()},1500);
