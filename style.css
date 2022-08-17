@@ -1,7 +1,7 @@
 *{
     background-color: rgb(62, 78, 72);
 }
-.joaca{
+.Joaca{
     width: 60px;
     height: 35px;
     color: aliceblue;
@@ -42,16 +42,17 @@
     color: aliceblue;
     margin-top: 45px;
 }
-.disabled {
+.disabled{
     background: #DDD;
 }
-.findWord{
+.FindWord{
     margin-right: 7px;
     color: aliceblue;
     border: none;
     font-size: 50px;
 }
-.hangMan{
+.HangMan{
+    display: none;
     position: absolute;
     margin-left: 725px;
     margin-right: auto;
