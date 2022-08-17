@@ -1,7 +1,7 @@
 *{
     background-color: rgb(62, 78, 72);
 }
-.Joaca{
+#joaca{
     width: 60px;
     height: 35px;
     color: aliceblue;
@@ -21,12 +21,10 @@
     border: 1px solid rgb(255, 255, 255);
     outline: none;
     font-weight: bold;
-
 }
 .Alfabet:hover{
     box-shadow:60px 60px 60px 60px inset rgb(67, 172, 133);
 }
-
 .Alfabet[disabled]{
     border: 1px solid #999999;
     background-color: #cccccc;
